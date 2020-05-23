@@ -1,9 +1,9 @@
 # Write your methods here
-def loop_message_five_times(string)
+def loop_message_five_times(message)
   puts string*5
 end
 
-def loop_message_n_times(string, n)
+def loop_message_n_times(message, n)
   puts string * n
 end
 
