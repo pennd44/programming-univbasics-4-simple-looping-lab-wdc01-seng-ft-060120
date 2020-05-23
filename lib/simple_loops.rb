@@ -3,7 +3,7 @@ def loop_message_five_times(message)
   puts string*5
 end
 
-def loop_message_n_times(message, n)
+def loop_message_n_times(message, limit)
   puts string * n
 end
 
