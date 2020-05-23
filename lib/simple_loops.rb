@@ -1,14 +1,20 @@
 # Write your methods here
 def loop_message_five_times(string)
-  puts string
+  puts string*5
 end
 
-def loop_message_n_times
+def loop_message_n_times(string, n)
+  puts string * n
 end
 
-def output_array
+def output_array(array)
+  counter = 0 
+  while counter<array.length
+  puts array[counter]
+  counter +=1 
 end
 
-def return_string_array
+def return_string_array(array)
+  array.to_s
 end
 
